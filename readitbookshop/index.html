@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>read.it</title> <!-- nama di tab -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon"> <!-- logo di tab -->
+    <link rel="stylesheet" href="style.css"> <!-- untuk connect html dan css -->
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">read<span>.</span>it</a>
+        <div class="menuToggle" onclick="toggleMenu()"></div>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#testi">Testimonials</a></li> 
+
+        </ul>
+    </header>
+    <section id="banner">
+       <div class="content">
+           <p>
+               <span class= "desc">shop for high quality books with low price and fast delivery.</span>
+           </p>
+
+           <a href="#shop" class="button"> SHOP NOW </a>
+       </div>
+    </section>
+    <section id="about">
+        <div class="row">
+            <div class="col50">
+                <br><br><br><br>
+                <h2 class="titleText">About Us</h2>
+                <p>
+                    <span class="a">read<span class="b">.</span>it</span> is made by <span class="c">Rachel Samantha Chandra</span> as a project for her Internet of Things class. This website functions as an online bookshop which sells books from <span class="d">Tokopedia</span>.
+                    <br><br>
+                    <span class="a">read<span class="b">.</span>it</span> lets you explore <span class="e">different kinds</span> of books with <span class="e">interesting</span> stories.          
+                </p>
+            </div>
+            <div class="col50">
+                <div class="vidBx">
+                    <video src="img/vid1.mp4" alt="Book" autoplay loop></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shop">
+        <div class="title">
+            <h2 class="titleText">
+                shop now<span>!</span>
+            </h2>
+            <p>
+              These items are connected to <a href="https://www.tokopedia.com/">Tokopedia</a>   
+            </p>
+        </div>
+        <div class="content">
+            <a href="https://www.tokopedia.com/drsbooksbeyond/how-to-win-friends-and-influence-people-by-dale-carnegie?whid=0">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/1.jpg" alt="How to Win Friends and Influence People by Dale Carnegie">        
+                    </div>
+
+                    <div class="text">
+                        <h3>How to Win Friends and Influence People</h3>
+                        Rp 142.000
+
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.tokopedia.com/periplus/the-alchemist-25th-anniversary-a-fable-about-followin-9780062355300?whid=0">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/2.jpg" alt="The Alchemist 25th Anniversary: A Fable About Following Your Dream">        
+                    </div>
+
+                    <div class="text">
+                        <h3>The Alchemist 25th Anniversary Edition</h3>
+                        Rp 136.000
+
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/drsbooksbeyond/the-little-book-of-ikigai-by-ken-mogi?whid=0">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/3.jpg" alt="The Little Book of Ikigai by Ken Mogi">        
+                    </div>
+
+                    <div class="text">
+                        <h3>The Little Book of Ikigai </h3>
+                        Rp 245.000
+
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/periplus/harry-potter-and-the-philosopher-s-stone-9781408855652">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/4.jpg" alt="Harry Potter and the Philosopher's Stone">        
+                    </div>
+
+                    <div class="text">
+                        <h3>Harry Potter and the Philosopher's Stone </h3>
+                        Rp 160.000
+
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/drsbooksbeyond/harry-potter-and-the-chamber-of-secrets-book-2?refined=true&whid=0">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/5.jpg" alt="Harry Potter and the Chamber of Secrets">        
+                    </div>
+
+                    <div class="text">
+                        <h3>Harry Potter and the Chamber of Secrets</h3>
+                        Rp 175.000
+
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/periplus/harry-potter-and-the-prisoner-of-azkaban-9781408855676">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/6.jpg" alt="Harry Potter and the Prisoner of Azkaban">        
+                    </div>
+
+                    <div class="text">
+                        <h3>Harry Potter and the Prisoner of Azkaban</h3>
+                        Rp 160.000
+
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/periplus/harry-potter-and-the-goblet-of-fire-9781408855683">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/7.jpg" alt="Harry Potter and the Goblet of Fire">        
+                    </div>
+
+                    <div class="text">
+                        <h3>Harry Potter and the Goblet of Fire</h3>
+                        Rp 180.000
+
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/drsbooksbeyond/harry-potter-and-the-order-of-the-phoenix">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/8.jpg" alt="Harry Potter and the Order of the Phoenix">        
+                    </div>
+
+                    <div class="text">
+                        <h3>Harry Potter and the Order of the Phoenix</h3>
+                        Rp 195.000
+
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/periplus/harry-potter-and-the-half-blood-prince?whid=0">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/9.jpg" alt="Harry Potter and the Half-Blood Prince">        
+                    </div>
+
+                    <div class="text">
+                        <h3>Harry Potter and the Half-Blood Prince</h3>
+                        Rp 180.000
+
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/drsbooksbeyond/harry-potter-and-the-deathly-hallows">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/10.jpg" alt="Harry Potter and The Deathly Hallows">        
+                    </div>
+
+                    <div class="text">
+                        <h3>Harry Potter and The Deathly Hallows</h3>
+                        Rp 180.000
+
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.tokopedia.com/periplus/haemin-sunim-the-things-you-can-see-only-when-you-slow-down">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/11.jpg" alt="The Things You Can See Only When You Slow Down">        
+                    </div>
+
+                    <div class="text">
+                        <h3>The Things You Can See Only When You Slow Down</h3>
+                        Rp 189.000
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/periplus/a-map-of-days-9780735231566">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/12.jpg" alt="A Map of Days">        
+                    </div>
+
+                    <div class="text">
+                        <h3>A Map of Days</h3>
+                        Rp 259.000
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/periplus/love-for-imperfect-things-how-to-accept-yourself-in-a-9780143132288">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/13.jpg" alt="Love for Imperfect Things">        
+                    </div>
+
+                    <div class="text">
+                        <h3>Love for Imperfect Things</h3>
+                        Rp 170.000
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/periplus/sapiens">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/14.jpg" alt="Sapiens">        
+                    </div>
+
+                    <div class="text">
+                        <h3>Sapiens</h3>
+                        Rp 207.000
+
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/periplus/a-promised-land">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/15.jpeg" alt="A Promised Land">        
+                    </div>
+
+                    <div class="text">
+                        <h3>A Promised Land</h3>
+                        Rp 590.000
+
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/periplus/mindset-updated-edition">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/16.jpg" alt="Mindset">        
+                    </div>
+
+                    <div class="text">
+                        <h3>Mindset</h3>
+                        Rp 206.000
+
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/periplus/school-for-good-and-evil-5-exp-us-9780062885753">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/17.jpg" alt="School for Good and Evil 5">        
+                    </div>
+
+                    <div class="text">
+                        <h3>School for Good and Evil 5</h3>
+                        Rp 83.000
+
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/periplus/school-for-good-and-evil-6-one-true-king-9780062999764">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/18.jpg" alt="School for Good and Evil 6">        
+                    </div>
+
+                    <div class="text">
+                        <h3>School for Good and Evil 6</h3>
+                        Rp 168.000
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/periplus/thinking-fast-and-slow-9780374533557">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/19.jpg" alt="Thinking, Fast and Slow">        
+                    </div>
+
+                    <div class="text">
+                        <h3>Thinking, Fast and Slow</h3>
+                        Rp 284.000
+
+                    </div>
+                </div>
+            </a><a href="https://www.tokopedia.com/periplus/fantastic-beasts-and-where-to-find-them-the-original-9780751574951">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/20.jpg" alt="Fantastic Beasts and Where to Find Them">        
+                    </div>
+
+                    <div class="text">
+                        <h3>Fantastic Beasts and Where to Find Them</h3>
+                        Rp 150.000
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section id="testi">
+        <div class="title">
+            <h2 class="titleText">
+                testimonials<span>.</span>
+            </h2>
+            <p>
+              what they say about us . . .
+            </p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/testi1.jpg" alt="testi1">        
+                </div>
+
+                <div class="text">
+                    <h3>Amber</h3>
+                    <p>"Pelayanan sangat memuaskan dan pengiriman cepat."</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/testi2.jpg" alt="testi2">        
+                </div>
+
+                <div class="text">
+                    <h3>Blossom</h3>
+                    <p>"Cocok bagi yang mencari toko buku berkualitas tinggi dengan harga yang terjangkau."</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/testi3.jpg" alt="testi3">        
+                </div>
+
+                <div class="text">
+                    <h3>Glenn</h3>
+                    <p>"Buku yang dijual sangat bervariasi dan penjual ramah."</p>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <footer>
+        <p>
+           <span>Rachel Samantha Chandra</span> &copy; 2021
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
